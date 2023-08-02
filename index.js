@@ -1,13 +1,4 @@
-class computer{
-    constructor(name) {
-        this.name = name
-    }
-
-    return() {
-        console.log("the computer is running")
-    }
-}
-
+import {computer} from './computer.js'
 class macbook extends computer {
     constructor(name, company) {
         super(name)
@@ -21,5 +12,5 @@ class macbook extends computer {
 const macbook_air = new macbook('air', 'apple');
 macbook_air.logIn()
 macbook_air.return()
-f
+
 
